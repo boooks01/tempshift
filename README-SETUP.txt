@@ -1,12 +1,10 @@
-TEMPSHIFT CLOUDFLARE SETUP
-1. Replace YOUR-DOMAIN.com with this site's real domain.
-2. Replace ca-pub-XXXXXXXXXXXXXXXX with your approved AdSense publisher ID.
-3. Replace ad-slot placeholders 1111111111, 2222222222 and 3333333333.
-4. Replace pub-XXXXXXXXXXXXXXXX in ads.txt.
-5. Replace support@YOUR-DOMAIN.com with your real contact email.
-6. Do not activate placeholder AdSense IDs.
-7. Test the utility before publishing.
-8. Verify privacy.html, terms.html, contact.html, robots.txt, sitemap.xml and ads.txt.
-9. Submit the sitemap to Google Search Console.
-10. Ensure all content and ad placements comply with current Google AdSense policies.
+TEMPSHIFT DEPLOYMENT SETUP
+1. Choose and configure the site's production domain before publishing.
+2. Add the production domain to the canonical URL, Open Graph URL and structured data in index.html.
+3. Update sitemap.xml with absolute URLs on the production domain and add its URL to robots.txt.
+4. Add a real support email to contact.html and privacy.html before launch.
+5. Ads are disabled until an AdSense account is approved and its publisher ID and ad-slot IDs are available.
+6. If AdSense is approved, add its script and ad placements to index.html and the authorized publisher entry to ads.txt.
+7. Test the temperature converter and verify all pages and links before publishing.
+8. Ensure published policies and ad placements accurately reflect the site's actual practices and comply with applicable requirements.
 END TEMPSHIFT
